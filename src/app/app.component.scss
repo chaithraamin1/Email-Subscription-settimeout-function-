@@ -1,0 +1,45 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;    
+    background-image:linear-gradient( rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('/assets/background.png');
+    padding: 10px 10%;
+    color: white;
+}
+.hero h3{
+    margin-top: 10%;
+    margin-bottom: 30px;
+}
+.hero h1{
+    font-size: 50px;
+}
+.hero p{
+    margin: 10px 0;
+}
+form{
+    display: flex;
+    width: fit-content;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+form input{
+    height: 70px;
+    width: 400px;
+    outline: none;
+    padding-left: 10px;
+}
+form button{
+    height: 70px;
+    outline: none;
+    width: 100px;
+    border: none;
+    background-color: green ;
+    color: white;
+}
+.send-img{
+    width: 30px;
+}
+span{
+    color: green;
+}
